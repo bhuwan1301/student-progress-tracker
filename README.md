@@ -2,9 +2,12 @@
 
 To run the project:
 - - - - - - - - - - - - - - - - - -
-cd student_progress_tracker .
-flutter pub get .
-flutter run .
+
+cd student_progress_tracker 
+
+flutter pub get 
+
+flutter run 
 
 # 📚 Student Progress Tracker App
 
