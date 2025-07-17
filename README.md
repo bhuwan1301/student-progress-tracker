@@ -56,26 +56,39 @@ Password: aryan!cs12
 
 
 ## 📂 Project Structure
+
 lib/
-├── bloc/ # State management using Cubit
-│ └── data_cubit.dart
-│
-├── data/ # Dummy data used in the app
-│ ├── auth/
-│ │ └── credentials.dart # Stores dummy login IDs & passwords
-│ └── students/
-│ └── students_raw_data.dart # Stores student profile & academic data
-│
-├── routes/
-│ └── routes.dart # Manages app navigation
-│
-├── screens/ # UI screens
-│ ├── homepage.dart
-│ ├── login.dart
-│ ├── profile.dart
-│ └── splash.dart
-│
-├── sdk/
-│ └── responsive_sdk.dart # Makes UI responsive across devices
-│
-└── main.dart # App entry point
+
+  bloc/ # State management using Cubit
+    
+    data_cubit.dart
+
+  data/ # Dummy data used in the app
+    
+    auth/
+      
+      credentials.dart # Stores dummy login IDs & passwords
+    
+    students/
+    
+    students_raw_data.dart # Stores student profile & academic data
+
+   routes/
+    
+    routes.dart # Manages app navigation
+
+   screens/ # UI screens
+    
+    homepage.dart
+    
+    login.dart
+    
+    profile.dart
+    
+    splash.dart
+
+   sdk/
+    
+    responsive_sdk.dart # Makes UI responsive across devices
+
+   main.dart # App entry point
