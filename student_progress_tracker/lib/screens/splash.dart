@@ -244,10 +244,10 @@ class _SplashScreenState extends State<SplashScreen>
                               Text(
                                 'Tracker',
                                 style: TextStyle(
-                                  fontSize: 28,
-                                  fontWeight: FontWeight.w300,
-                                  color: Colors.indigo.shade600,
-                                  letterSpacing: 2.0,
+                                  fontSize: 32,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.indigo.shade800,
+                                  letterSpacing: 1.2,
                                 ),
                                 textAlign: TextAlign.center,
                               ),
@@ -357,7 +357,7 @@ class _SplashScreenState extends State<SplashScreen>
                       ),
                       const SizedBox(height: 5),
                       Text(
-                        '© 2024 Student Progress Tracker',
+                        '© 2025 Student Progress Tracker',
                         style: TextStyle(
                           color: Colors.grey.shade500,
                           fontSize: 12,

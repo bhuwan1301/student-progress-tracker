@@ -242,8 +242,8 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
                             'Tracker',
                             style: TextStyle(
                               fontSize: ResponsiveSdk.fontSizeLarge(context),
-                              fontWeight: FontWeight.w300,
-                              color: Colors.indigo.shade600,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.indigo.shade800,
                             ),
                           ),
                           SizedBox(height: ResponsiveSdk.paddingSmall(context)),
@@ -414,27 +414,6 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
                                   ),
                                 ),
                                 
-                                SizedBox(height: ResponsiveSdk.paddingMedium(context)),
-                                
-                                // Forgot Password Link
-                                TextButton(
-                                  onPressed: () {
-                                    // Handle forgot password
-                                    ScaffoldMessenger.of(context).showSnackBar(
-                                      const SnackBar(
-                                        content: Text('Forgot password functionality coming soon!'),
-                                        behavior: SnackBarBehavior.floating,
-                                      ),
-                                    );
-                                  },
-                                  child: Text(
-                                    'Forgot Password?',
-                                    style: TextStyle(
-                                      color: Colors.indigo.shade600,
-                                      fontWeight: FontWeight.w500,
-                                    ),
-                                  ),
-                                ),
                               ],
                             ),
                           ),
@@ -448,7 +427,7 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
                     FadeTransition(
                       opacity: _fadeAnimation,
                       child: Text(
-                        '© 2024 Student Progress Tracker',
+                        '© 2025 Student Progress Tracker',
                         style: TextStyle(
                           color: Colors.grey.shade500,
                           fontSize: ResponsiveSdk.fontSizeSmall(context),
